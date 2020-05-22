@@ -10,6 +10,7 @@ class FinllectApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'finllect demo',
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: kBackgroundColor,
