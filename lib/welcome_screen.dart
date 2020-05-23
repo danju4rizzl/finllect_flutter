@@ -40,6 +40,9 @@ class WelcomeScreen extends StatelessWidget {
                   width: double.infinity,
                 ),
               ),
+              SizedBox(
+                height: 40.0,
+              ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
